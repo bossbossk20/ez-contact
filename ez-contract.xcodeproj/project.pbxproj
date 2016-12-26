@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C174CC331E10ED260073A305 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174CC321E10ED260073A305 /* AppDelegate.swift */; };
+		C174CC351E10ED260073A305 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174CC341E10ED260073A305 /* ViewController.swift */; };
+		C174CC381E10ED260073A305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C174CC361E10ED260073A305 /* Main.storyboard */; };
+		C174CC3A1E10ED260073A305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C174CC391E10ED260073A305 /* Assets.xcassets */; };
+		C174CC3D1E10ED260073A305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C174CC3B1E10ED260073A305 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C174CC2F1E10ED260073A305 /* ez-contract.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ez-contract.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C174CC321E10ED260073A305 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C174CC341E10ED260073A305 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C174CC371E10ED260073A305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C174CC391E10ED260073A305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C174CC3C1E10ED260073A305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C174CC3E1E10ED260073A305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C174CC2C1E10ED250073A305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C174CC261E10ED250073A305 = {
+			isa = PBXGroup;
+			children = (
+				C174CC311E10ED260073A305 /* ez-contract */,
+				C174CC301E10ED260073A305 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C174CC301E10ED260073A305 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C174CC2F1E10ED260073A305 /* ez-contract.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C174CC311E10ED260073A305 /* ez-contract */ = {
+			isa = PBXGroup;
+			children = (
+				C174CC321E10ED260073A305 /* AppDelegate.swift */,
+				C174CC341E10ED260073A305 /* ViewController.swift */,
+				C174CC361E10ED260073A305 /* Main.storyboard */,
+				C174CC391E10ED260073A305 /* Assets.xcassets */,
+				C174CC3B1E10ED260073A305 /* LaunchScreen.storyboard */,
+				C174CC3E1E10ED260073A305 /* Info.plist */,
+			);
+			path = "ez-contract";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C174CC2E1E10ED250073A305 /* ez-contract */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C174CC411E10ED260073A305 /* Build configuration list for PBXNativeTarget "ez-contract" */;
+			buildPhases = (
+				C174CC2B1E10ED250073A305 /* Sources */,
+				C174CC2C1E10ED250073A305 /* Frameworks */,
+				C174CC2D1E10ED250073A305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ez-contract";
+			productName = "ez-contract";
+			productReference = C174CC2F1E10ED260073A305 /* ez-contract.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C174CC271E10ED250073A305 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = thanawat;
+				TargetAttributes = {
+					C174CC2E1E10ED250073A305 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = EY268YMMS7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C174CC2A1E10ED250073A305 /* Build configuration list for PBXProject "ez-contract" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C174CC261E10ED250073A305;
+			productRefGroup = C174CC301E10ED260073A305 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C174CC2E1E10ED250073A305 /* ez-contract */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C174CC2D1E10ED250073A305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C174CC3D1E10ED260073A305 /* LaunchScreen.storyboard in Resources */,
+				C174CC3A1E10ED260073A305 /* Assets.xcassets in Resources */,
+				C174CC381E10ED260073A305 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C174CC2B1E10ED250073A305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C174CC351E10ED260073A305 /* ViewController.swift in Sources */,
+				C174CC331E10ED260073A305 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C174CC361E10ED260073A305 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C174CC371E10ED260073A305 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C174CC3B1E10ED260073A305 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C174CC3C1E10ED260073A305 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C174CC3F1E10ED260073A305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C174CC401E10ED260073A305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C174CC421E10ED260073A305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EY268YMMS7;
+				INFOPLIST_FILE = "ez-contract/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kody.ez-contract";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C174CC431E10ED260073A305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EY268YMMS7;
+				INFOPLIST_FILE = "ez-contract/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kody.ez-contract";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C174CC2A1E10ED250073A305 /* Build configuration list for PBXProject "ez-contract" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C174CC3F1E10ED260073A305 /* Debug */,
+				C174CC401E10ED260073A305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C174CC411E10ED260073A305 /* Build configuration list for PBXNativeTarget "ez-contract" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C174CC421E10ED260073A305 /* Debug */,
+				C174CC431E10ED260073A305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C174CC271E10ED250073A305 /* Project object */;
+}
